@@ -1,31 +1,35 @@
 {
-    "name": "gitbook-plugin-autocover",
-    "description": "Generate a cover for a gitbook",
-    "main": "./lib/index.js",
-    "version": "2.0.1",
-    "engines": {
-        "gitbook": ">=3.0.0"
-    },
-    "scripts": {
-        "test": "mocha -t 3000"
-    },
-    "dependencies": {
-        "canvas": "^1.6.11",
-        "canvg": "^0.0.8",
-        "geopattern": "1.2.3",
-        "lodash": "^4.5.0",
-        "q": "^1.4.1"
-    },
-    "devDependencies": {
-        "mocha": "^5.2.0"
-    },
-    "homepage": "https://github.com/GitbookIO/plugin-autocover",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/GitbookIO/plugin-autocover.git"
-    },
-    "license": "Apache-2.0",
-    "bugs": {
-        "url": "https://github.com/GitbookIO/plugin-autocover/issues"
-    }
+  "name": "gitbook-plugin-autocover",
+  "description": "Generate a cover for a gitbook",
+  "main": "./lib/index.js",
+  "version": "2.0.1",
+  "engines": {
+    "gitbook": ">=3.0.0"
+  },
+  "scripts": {
+    "test": "mocha -t 3000",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "dependencies": {
+    "canvas": "^1.6.11",
+    "canvg": "^0.0.8",
+    "geopattern": "1.2.3",
+    "lodash": "^4.5.0",
+    "q": "^1.4.1",
+    "snyk": "^1.189.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "homepage": "https://github.com/GitbookIO/plugin-autocover",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GitbookIO/plugin-autocover.git"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/GitbookIO/plugin-autocover/issues"
+  },
+  "snyk": true
 }
