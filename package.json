@@ -10,7 +10,7 @@
         "test": "mocha -t 3000"
     },
     "dependencies": {
-        "canvas": "^1.6.13",
+        "canvas": "*",
         "canvg": "0.0.8",
         "geopattern": "1.2.3",
         "lodash": "^4.5.0",
