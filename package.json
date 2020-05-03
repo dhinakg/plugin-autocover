@@ -10,11 +10,13 @@
         "test": "mocha -t 3000"
     },
     "dependencies": {
-        "canvas": "*",
-        "canvg": "0.0.8",
-        "geopattern": "1.2.3",
-        "lodash": "^4.5.0",
-        "q": "^1.4.1"
+        "canvas": "^2.6.1",
+        "canvg": "^3.0.6",
+        "geopattern": "^1.2.3",
+        "lodash": "^4.17.15",
+        "node-fetch": "^2.6.0",
+        "q": "^1.5.1",
+        "xmldom": "^0.3.0"
     },
     "devDependencies": {
         "mocha": "^5.2.0"
