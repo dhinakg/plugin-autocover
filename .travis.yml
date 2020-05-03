@@ -12,3 +12,4 @@ addons:
       - libjpeg-dev
       - librsvg2-dev
       - calibre
+      - g++
