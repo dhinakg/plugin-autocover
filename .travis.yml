@@ -1,19 +1,14 @@
 sudo: false
 language: node_js
-node_js:
-  - "stable"
-  - "8"
-  - "6"
-  - "4.2"
+node_js: stable
 addons:
   apt:
-    sources:
-      - ubuntu-toolchain-r-test
     packages:
       - libcairo2-dev
       - libjpeg8-dev
       - libpango1.0-dev
       - libgif-dev
-      - g++-4.8
-env:
-  - CXX=g++-4.8
+      - build-essential
+      - libjpeg-dev
+      - librsvg2-dev
+      - calibre
